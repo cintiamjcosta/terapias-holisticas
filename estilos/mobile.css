@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --branco: #FFFFFF;
+    --off-white-fundo: #F9F9F9;
+    --vermelho-suave-rosado: #E57373;
+    --rosa-claro: #FCE4EC;
+    --cinza-leve-texto: #555555;
+    --bordô: #800020;
+
+    --fonte-principal: "Quicksand", sans-serif;
+    --fonte-titulo: "Marcellus", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    background-color: var(--off-white-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    line-height: 2em;
+    text-align: left;
+    color: var(--cinza-leve-texto);
+}
+
+h1, h2, h3 {
+    font-family: var(--fonte-titulo);
+}
+
+header {
+    background-color: var(--vermelho-suave-rosado);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+    margin-bottom: 20px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+   
+}
+
+
+#menu-header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.322);
+    transition: 0.5s;
+  
+   
+}
+
+
+#menu-header a:hover {
+    color: var(--cinza-leve-texto);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+main {
+    background-color: var(--off-white-fundo);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#home {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+
+.frases-home {
+    color: white;
+    background-color: #5555554b;
+    width: 70%;
+    padding: 150px 0;
+    margin: 30px 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+ .frases-home p {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--vermelho-suave-rosado);
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.299);
+}
+
+footer a:hover {
+    color: var(--cinza-leve-texto);
+    text-decoration: underline;
+}
