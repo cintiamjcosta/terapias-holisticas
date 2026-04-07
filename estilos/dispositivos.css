@@ -11,13 +11,16 @@
     }
 
     #home {
-        background-image: url(../imagens/campo-florido-640.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top center;
         background-attachment: fixed;
     }
 
-    
+    #menu-header a {
+        font-size: 1.1em;
+    }
+
+    .sobre-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
 }
