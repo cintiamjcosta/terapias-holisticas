@@ -108,6 +108,10 @@ section {
 
 }
 
+.frases-home #botao {
+    margin-top: 30px;
+}
+
  .frases-home p {
     text-align: center;
     font-weight: bold;
@@ -115,6 +119,64 @@ section {
 
 .frases-home h3 {
     text-align: center;
+}
+
+.atendimento {
+    text-align: center;
+    padding: 60px 20px;
+    background: #F9F9F9;
+}
+
+.atendimento h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* container */
+.cards-atendimento {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.atendimento #botao {
+    justify-content: center;
+    align-items: center;
+}
+
+/* card */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    width: 280px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* hover elegante */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ícone */
+.icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* título */
+.card h3 {
+    margin-bottom: 10px;
+    color: #C62828;
+}
+
+/* texto */
+.card p {
+    font-size: 14px;
+    color: #555;
 }
 
 #botao {
@@ -142,6 +204,7 @@ section {
     color: var(--cinza-leve-texto);
     text-decoration: underline;
 }
+
 
 #sobre h1 {
     margin-top: 30px;
