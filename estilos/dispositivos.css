@@ -1,8 +1,23 @@
 @charset "UTF-8";
 @media screen and (min-width: 768px) {
+    body {
+        text-align: justify;
+        font-size: 1.2em;
+    }
+    
     main {
         width: 80%;
         margin: auto;
     }
+
+    #home {
+        background-image: url(../imagens/campo-florido-640.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        background-attachment: fixed;
+    }
+
+    
 
 }

@@ -27,10 +27,15 @@ body {
     line-height: 2em;
     text-align: left;
     color: var(--cinza-leve-texto);
+    
 }
 
 h1, h2, h3 {
     font-family: var(--fonte-titulo);
+}
+
+p {
+    
 }
 
 header {
@@ -75,20 +80,24 @@ main {
     grid-template-columns: 1fr;
 }
 
-#home {
+section {
+    padding: 0px 30px;
+}
 
+#home {
+    background-image: url(../imagens/campo-florido-640.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top center;
     background-attachment: scroll;
-    background-position: center center;
 }
 
 
 .frases-home {
     color: white;
-    background-color: #5555554b;
+    background-color: #55555531;
     width: 70%;
-    padding: 150px 0;
+    padding: 150px 10px;
     margin: 30px 0;
     margin: auto;
     display: flex;
@@ -97,13 +106,54 @@ main {
     align-items: center;
     justify-content: center;
 
-   
 }
 
  .frases-home p {
     text-align: center;
     font-weight: bold;
 }
+
+.frases-home h3 {
+    text-align: center;
+}
+
+#botao {
+    width: 175px;
+    background-color: var(--vermelho-suave-rosado);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.279);
+}
+
+#botao a {
+    text-decoration: none;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    font-size: 0.9em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.363);
+    transition: 0.5s;
+}
+
+#botao a:hover {
+    color: var(--cinza-leve-texto);
+    text-decoration: underline;
+}
+
+#sobre h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#terapeutica h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
 
 footer {
     background-color: var(--vermelho-suave-rosado);
