@@ -108,6 +108,7 @@ section {
     align-items: center;
     justify-content: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.409);
+    border-radius: 5px;
 
 }
 
@@ -218,25 +219,45 @@ section {
     margin: auto;
 }
 
-.foto-texto {
-    
+h1, h2, h3 {
+    color: var(--bordô);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.395);
 }
 
 .foto-texto h3 {
     margin-top: 20px;
 } 
 
-.texto-botao
+
 
 .sobre-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
 
 #sobre h1 {
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+.sobre-texto #botao {
+    margin:30px 0px;
+}
+
+#terapeutica {
+    background-color: var(--vermelho-suave-rosado);
+    color: white;
+
+}
+
+
+
+.texto-t #botao {
+    background-color: var(--bordô);
+    margin: 30px 0px;
+    
 }
 
 #terapeutica h1 {
